@@ -3,9 +3,8 @@
 void main()
 {
 	int a,b,c,d;
-	cout<<"ÇëÊäÈëaºÍbµÄÖµ£º"<<endl;
 	cin>>a>>b;
-	a>=b?c=b:c=a;
-	a>=b?d=a:d=b;
+	a>=b?c=b:c=a;		//a,bä¸­è¾ƒå°å€¼èµ‹ç»™c
+	a>=b?d=a:d=b;		//a,bä¸­è¾ƒå¤§å€¼èµ‹ç»™d
 	cout<<"c="<<c<<endl<<"d="<<d<<endl;
 }
