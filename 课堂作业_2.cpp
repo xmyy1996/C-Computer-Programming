@@ -56,5 +56,4 @@ void main()
 	{
 		cout<<i<<"大于1000"<<endl;
 	}
-
 }		//if实现
