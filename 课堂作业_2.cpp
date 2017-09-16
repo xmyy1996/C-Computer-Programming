@@ -4,9 +4,9 @@ void main()
 {
 	int i, j, m;
 	j = 0;
-	cout<<"请输入一个整数："<<endl;
+	cout<<"璇疯緭鍏ヤ竴涓暣鏁帮細"<<endl;
 	cin>>i;
-	if (i < 0)
+	if (i <= 0)
 	{
 		j = 1;
 	}
@@ -21,15 +21,15 @@ void main()
 
 	switch(j)
 	{	
-	case 1: cout<<i<<"小于10"<<endl;
+	case 1: cout<<i<<"灏忎簬10"<<endl;
 			break;
-	case 2: cout<<i<<"介于10-99之间"<<endl;
+	case 2: cout<<i<<"浠嬩簬10-99涔嬮棿"<<endl;
 			break;
-	case 3: cout<<i<<"介于100-999之间"<<endl;
+	case 3: cout<<i<<"浠嬩簬100-999涔嬮棿"<<endl;
 			break;
-	default: cout<<i<<"大于1000"<<endl;
+	default: cout<<i<<"澶т簬1000"<<endl;
 	}
-}		//switch实现
+}		//switch瀹炵幇
 
 
 # include <iostream.h>
@@ -37,24 +37,24 @@ void main()
 void main()
 {
 	int i;
-	cout<<"请输入一个整数："<<endl;
+	cout<<"璇疯緭鍏ヤ竴涓暣鏁帮細"<<endl;
 	cin>>i;
 
 	if (i < 10)
 	{
-		cout<<i<<"小于10"<<endl;
+		cout<<i<<"灏忎簬10"<<endl;
 	}
 	else if (i >= 10 && i <= 99)
 	{
-		cout<<i<<"介于10-99之间"<<endl;
+		cout<<i<<"浠嬩簬10-99涔嬮棿"<<endl;
 	}
 	else if (i >= 100 && i <= 999)
 	{
-		cout<<i<<"介于100-999之间"<<endl;
+		cout<<i<<"浠嬩簬100-999涔嬮棿"<<endl;
 	}
 	else
 	{
-		cout<<i<<"大于1000"<<endl;
+		cout<<i<<"澶т簬1000"<<endl;
 	}
 
-}		//if实现
+}		//if瀹炵幇
