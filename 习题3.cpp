@@ -59,11 +59,13 @@ void main()
 		cout<<i<<"大于1000"<<endl;
 	}
 }		//if实现
-//运行结果：
-//请输入一个整数：
-//236
-//236介于100-999之间
-//Press any key to continue
+/*
+运行结果：
+请输入一个整数：
+236
+236介于100-999之间
+Press any key to continue
+*/
 
 /////////
 //第3题//
@@ -85,10 +87,12 @@ void main()
 		cout<<"NO"<<endl;
 	}
 }
-//运行结果：
-//请输入一个整数：14
-//YES
-//Press any key to continue
+/*
+运行结果：
+请输入一个整数：14
+YES
+Press any key to continue
+*/
 
 /////////
 //第5题//
@@ -106,10 +110,12 @@ void main()
 	area = sqrt(s * (s - a)*(s - b)*(s - c));
 	cout<<"三角形面积S="<<area<<endl;
 }
-//运行结果：
-//请输入三边的值a, b, c:2.5 3.6 4.7
-//三角形面积S=4.44203
-//Press any key to continue
+/*
+运行结果：
+请输入三边的值a, b, c:2.5 3.6 4.7
+三角形面积S=4.44203
+Press any key to continue
+*/
 
 /////////
 //第6题//
@@ -136,15 +142,17 @@ void main()
 		default: cout<<"圆的面积S = "<<area<<"圆的周长C = "<<c<<endl;
 	}
 }
-//运行结果：
-//计算圆的面积请输入1
-//计算圆的周长请输入2
-//计算圆的面积和周长请输入3
-//3
-//请输入圆的半径：
-//6
-//圆的面积S = 113.097圆的周长C = 37.6991
-//Press any key to continue
+/*
+运行结果：
+计算圆的面积请输入1
+计算圆的周长请输入2
+计算圆的面积和周长请输入3
+3
+请输入圆的半径：
+6
+圆的面积S = 113.097圆的周长C = 37.6991
+Press any key to continue
+*/
 
 /////////
 //第8题//
@@ -168,8 +176,10 @@ void main()
 		cout<<a<<'/'<<b<<'='<<m<<"…"<<n<<endl;
 	}
 }
-//运行结果：
-//请输入整数a, b:
-//148 3
-//148/3=49…1
-//Press any key to continue
+/*
+运行结果：
+请输入整数a, b:
+148 3
+148/3=49…1
+Press any key to continue
+*/
